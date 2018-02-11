@@ -89,3 +89,39 @@ a {
 a:hover {
   color: black;
 }
+
+/* 3 Column Gallery*/
+section {
+  width: 100%;
+  height: auto;
+  justify-content: center;
+}
+
+.gallery {
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.column {
+  width: 30%;
+  border: black solid 4px;
+  margin-top: 3%;
+}
+
+.frame {
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
+
+.frame img {
+  width: 80%;
+}
+
+.label {
+  background-color: black;
+  height: 30px;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
