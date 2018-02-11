@@ -3,34 +3,67 @@ body {
   font-family: Helvetica, sans-serif;
   color: white;
   font-weight: lighter;
-  border: black solid 1px;
-  margin: 5px;
 }
 
 .uppercase {
   text-transform: uppercase;
 }
 
+p {
+  opacity: 0.8;
+}
+
 .flexbox {
   display: flex;
+}
+
+.container {
+  width: 50%;
+  heght: auto;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: normal;
+  line-height: 1.5;
 }
 
 /*Header*/
 header {
   width: 100%;
-  height: 100px;
+  height: auto;
   justify-content: center;
-  background-color: lightgray;
+  background-color: black;
+  padding: 10px;
 }
 
 .header-container {
-  width: 1000px;
-  heght: auto;
   justify-content: flex-start;
   align-items: center;
-  background-color: blue;
 }
 
 .logo {
   margin-right: 10px;
+  height: 30px;
+}
+
+/*Main*/
+main {
+  width: 100%;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../images/moto.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.new-arrival {
+  width: 350px;
+  height: 150px;
+  background-color: black;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 20px;
 }
