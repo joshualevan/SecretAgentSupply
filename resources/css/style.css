@@ -217,6 +217,11 @@ footer .container p {
   }
 }
 
+  /*Time and Location*/
+  .time-items {
+    width: 47%;
+  }
+
 /* < 470px*/
 @media only screen and (max-width: 470px) {
   /*Global*/
@@ -240,5 +245,41 @@ footer .container p {
 
   .new-arrival {
     width: 100%;
+  }
+
+  h1 {
+    font-size: 1.125rem;
+  }
+
+  .new-arrival p{
+    font-size: 0.684rem;
+  }
+
+  /*Gallery*/
+  .column {
+    width: 90%;
+  }
+
+  .gallery {
+    justify-content: center;
+  }
+
+  /*Time and Location*/
+  .time {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .time-items {
+    width: 90%;
+  }
+
+  .location {
+    margin-bottom: 1rem;
+  }
+
+  /*Footer*/
+  .copyright {
+    text-align: center;
   }
 }
