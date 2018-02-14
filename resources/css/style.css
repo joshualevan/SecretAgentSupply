@@ -6,15 +6,10 @@ html {
 body {
   font-family: Helvetica, sans-serif;
   color: white;
-  font-weight: lighter;
 }
 
 .uppercase {
   text-transform: uppercase;
-}
-
-p {
-  opacity: 0.8;
 }
 
 .flexbox {
@@ -22,13 +17,12 @@ p {
 }
 
 .container {
-  width: 50%;
+  width: 960px;
   heght: auto;
 }
 
 h1 {
   font-size: 2rem;
-  font-weight: normal;
   line-height: 1.5;
 }
 
@@ -126,7 +120,7 @@ section {
   background-color: black;
   height: 30px;
   align-items: center;
-  text-align: center;
+  justify-content: center;
   padding: 20px;
 }
 
