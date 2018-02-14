@@ -100,6 +100,10 @@ a:hover {
   color: black;
 }
 
+.nav-main {
+  display: none;
+}
+
 /* 3 Column Gallery*/
 section {
   width: 100%;
@@ -165,6 +169,7 @@ time {
 
 #black {
   color: black;
+  margin-top: 0.5rem;
 }
 
 /*Footer*/
@@ -179,4 +184,39 @@ footer {
 
 footer .container p {
     opacity: 1;
+}
+
+/* Media queries */
+
+/* < 1024px */
+@media only screen and (max-width: 1024px) {
+  /*Nav Bar*/
+  .nav-bar {
+    justify-content: center;
+  }
+
+  .default-nav {
+    display: none;
+  }
+
+  .nav-main {
+    display: inline;
+  }
+
+  /*Gallery*/
+  .column {
+    width: 47%;
+  }
+
+  .glasses {
+    display: none;
+  }
+}
+
+/* < 470px*/
+@media only screen and (max-width: 470px) {
+  /*Global*/
+  .hide {
+    display: none;
+  }
 }
