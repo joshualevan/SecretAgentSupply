@@ -77,6 +77,10 @@ main {
     margin-bottom: 0.25rem;
 }
 
+.hide-default {
+  display: none;
+}
+
 /* Nav Bar*/
 nav {
   width: 100%;
@@ -100,7 +104,7 @@ a:hover {
   color: black;
 }
 
-.nav-main {
+.hide-main {
   display: none;
 }
 
@@ -199,7 +203,7 @@ footer .container p {
     display: none;
   }
 
-  .nav-main {
+  .hide-main {
     display: inline;
   }
 
@@ -216,7 +220,25 @@ footer .container p {
 /* < 470px*/
 @media only screen and (max-width: 470px) {
   /*Global*/
+  html {
+    font-size: 16px;
+  }
+
   .hide {
     display: none;
+  }
+
+  /*Header*/
+  .header-container {
+    justify-content: center;
+  }
+
+  /*Main*/
+  .hide-default {
+    display: block;
+  }
+
+  .new-arrival {
+    width: 100%;
   }
 }
