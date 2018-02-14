@@ -115,17 +115,23 @@ section {
 .column {
   width: 30%;
   border: black solid 4px;
-  margin-top: 3%;
+  margin-top: 3rem;
 }
 
 .frame {
   justify-content: center;
   align-items: center;
-  height: 300px;
+  height: 13rem;
+  overflow: hidden;
 }
 
 .frame img {
-  width: 80%;
+  height: 9rem;
+  margin: 2rem 0;
+}
+
+#glasses {
+  height: 5rem;
 }
 
 .label {
