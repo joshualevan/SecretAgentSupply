@@ -136,17 +136,42 @@ section {
 
 .label {
   background-color: black;
-  height: 30px;
   align-items: center;
   justify-content: center;
-  padding: 20px;
+  padding: 0.5rem;
+}
+
+/* Time and Location */
+time {
+  width: 100%;
+  height: auto;
+  justify-content:center;
+  margin-top: 3rem;
+}
+
+.time-items {
+  width: 35%;
+}
+
+.time {
+  justify-content: space-between;
+}
+
+.location-hours {
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: black;
+}
+
+#black {
+  color: black;
 }
 
 /*Footer*/
 footer {
   width: 100%;
-  height: 300px;
-  margin-top: 50px;
+  height: 5rem;
+  margin-top: 4rem;
   background-color: black;
   justify-content: center;
   align-items: center;
