@@ -41,8 +41,14 @@ header {
 }
 
 .logo {
-  margin-right: 10px;
-  height: 30px;
+  margin-right: 1rem;
+  margin-left: 0.5rem;
+  height: 1.5rem;
+}
+
+.header-container span {
+  font-size: 1rem;
+  margin: .66rem 0 .66rem 0;
 }
 
 /*Main*/
